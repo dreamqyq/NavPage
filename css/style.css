@@ -8,10 +8,13 @@ body{
 	align-items: center;
 	flex-direction: column;
 	height: 100vh;
-
+	/*background: gray url(../img/wall.jpg);*/
+	background-size: cover;
 }
 #main{
 	padding: 20px;
+	border-radius: 10px;
+	background: rgba(255,255,255,0.2);
 }
 #main > .row{
 	border: 1px solid black;
