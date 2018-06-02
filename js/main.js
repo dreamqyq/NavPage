@@ -103,7 +103,7 @@ function createKeyboard(key,webSite) {
 // 图片资源更新函数
 function iconSrc(iconTag,index) {
 	iconTag.onerror = function() {
-		this.src = '../img/i.png';
+		this.src = '//i.loli.net/2018/06/02/5b1253d0b413f.png';
 	}
 	iconTag.src = 'http://' + webSite[index] + '/favicon.ico';
 }
