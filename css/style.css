@@ -8,7 +8,7 @@ body{
 	align-items: center;
 	flex-direction: column;
 	height: 100vh;
-	/*background: gray url(../img/wall.jpg);*/
+	background: gray url(../img/wall.jpg);
 	background-size: cover;
 }
 #main{
@@ -16,28 +16,45 @@ body{
 	border-radius: 10px;
 	background: rgba(255,255,255,0.2);
 }
-#main > .row{
-	border: 1px solid black;
+#main > .row:nth-child(2){
+	margin-left: 30px;
+}
+#main > .row:nth-child(3){
+	margin-left: 60px;
 }
 #main > .row > kbd{
 	font-size: 20px;
+	text-transform: capitalize;
 	display: inline-block;
-	border: 1px solid blue;
 	height: 60px;
 	width:60px;
 	margin: 10px;
 	position: relative;
+
+    font-family: Arnoldboecklin, fantasy;
+	border-radius: 7px; 
+	border-bottom: 3px solid rgb(135,135,135);
+	box-shadow: 0px 6px 8px 2px rgba(0,0,0,0.84);
+    background: linear-gradient(0deg, rgba(221,221,221,1) 0%, rgba(255,255,255,1) 100%);
 }
 #main > .row > kbd > .keyValue{
 	position: absolute;
-	left: 5px;
+	left: 7px;
 	top: 5px;
 }
 #main > .row > kbd > .editBtn{
 	position: absolute;
+	height: 16px;
+	width: 28px;
+	outline: none;
 	right: 5px;
 	bottom: 5px;
 	display: none;
+	border: none;
+	border-radius: 5px;
+
+	background: linear-gradient(135deg, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 24%, rgba(17,17,17,1) 43%, rgba(43,43,43,1) 72%, rgba(28,28,28,1) 84%, rgba(19,19,19,1) 100%);
+	color: #fff;
 }
 #main > .row > kbd:hover .editBtn{
 	display: block;

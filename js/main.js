@@ -41,7 +41,7 @@ for (var i = 0; i < key.length; i++) {
 		editBtn.id = keySite;
 
 		icon.onerror = function(){
-			this.src = '//i.loli.net/2017/11/10/5a05afbc5e183.png';
+			this.src = '//i.loli.net/2018/06/02/5b121775c326b.png';
 		}
 		icon.src = 'http://' + webSite[keySite] + '/favicon.ico';
 		
