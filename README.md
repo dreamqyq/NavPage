@@ -1,6 +1,9 @@
 # NavPage
+这是一个导航页面，可以按对应的键位到达对应的网页
+- [源码链接](https://github.com/dreamqyq/NavPage) & [预览链接](https://dreamqyq.github.io/NavPage/)
+- 关键词：localStorage、事件委托、JavaScript、CSS 3
+- 描述：本项目用于设置导航页，支持点击事件或键盘事件跳转到对应的网页。当某一键位绑定网址后，该按键中会显示对应网址的图标。如果想改变后增加某一按键的网址绑定，点击该键浮现的 Edit 按钮输入网址即可。键盘绑定的网址信息数据存储在 localStorage 中。
 
-#### 这是一个导航页面，可以按对应的键位到达对应的网页
 
 ### V2.0
 ---

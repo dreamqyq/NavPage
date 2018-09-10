@@ -10,6 +10,7 @@ body{
 	height: 100vh;
 	background: gray url('../img/wall.jpg');
 	background-size: cover;
+  min-width:845px;
 }
 #main{
 	padding: 20px;
